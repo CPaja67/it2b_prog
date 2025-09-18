@@ -2,7 +2,7 @@
 
 
 int main(){
-    printf("Hoj světe, ja te nemam rad");
+    printf("Hoj světe, ja te mam rad");
     return 0;
 
 }
