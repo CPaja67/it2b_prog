@@ -19,5 +19,5 @@ int main() {
   }
 
   printf("je to palindorm");
-  return 0;
+    return 0;
 }
