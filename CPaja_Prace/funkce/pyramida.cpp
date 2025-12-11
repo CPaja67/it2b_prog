@@ -36,16 +36,6 @@ void trojstroj(int vyska,int offset, int offsetDole){
 
 
 
-int max(int a, int b){
-    if (a>b){
-        return a;
-    }
-    else{
-        return b;
-    }
-    return 1;
-}
-
 int strom(int a){
     pyramida(a, 4);
     pyramida(a + 2, 2);
