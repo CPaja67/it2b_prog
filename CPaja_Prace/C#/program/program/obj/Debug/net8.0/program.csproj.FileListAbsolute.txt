@@ -1,0 +1,15 @@
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\bin\Debug\net8.0\program.exe
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\bin\Debug\net8.0\program.deps.json
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\bin\Debug\net8.0\program.runtimeconfig.json
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\bin\Debug\net8.0\program.dll
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\bin\Debug\net8.0\program.pdb
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.GeneratedMSBuildEditorConfig.editorconfig
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.AssemblyInfoInputs.cache
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.AssemblyInfo.cs
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.csproj.CoreCompileInputs.cache
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.sourcelink.json
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.dll
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\refint\program.dll
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.pdb
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\program.genruntimeconfig.cache
+E:\it2b_prog\it2b_prog\CPaja_Prace\C#\program\program\obj\Debug\net8.0\ref\program.dll
