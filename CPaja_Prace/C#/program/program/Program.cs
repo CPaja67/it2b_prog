@@ -1,51 +1,79 @@
 ﻿class Program
 {
 
-    static void GrafickeZnazorneni(int[] indexy, int vyska)
+
+    static int CenaVykon(int Cena, int Vykon)
     {
-        for (int i = 0; i < vyska; i++)
-        {
-            for (int j = 0; j < indexy.Length; j++)
-            {
-                if (indexy[i] == j)
-                {
-                    Console.Write("O");
-                }
-                else
-                {
-                    Console.Write(" ");
-                }
-            }
-            Console.WriteLine("");
-        }
+        return Cena / Vykon;
     }
-        static void Vykreslit(int[] hodnoty)
+
+
+    static void Main()
+    {
+        List<string> nazvy = new List<string>();
+        List<int> ceny = new List<int>();
+        List<int> vykony = new List<int>();
+        List<int> pomer = new List<int>();
+
+
+        int vstup = 0;
+        bool chcepokracovat = true;
+        while (chcepokracovat)
         {
+            Console.Clear();
+            Console.Write("chces pridat auto (1) nebo vypsat auto s nejlepsim pomerem cena/vykon(2),vypsat vsechny (3), nebo zkoncit(4): ");
+            vstup = int.Parse(Console.ReadLine());
 
-            int[] indexy = new int[hodnoty.Length];
-            int[] serazeno = new int[hodnoty.Length];
-            Array.Copy(hodnoty, serazeno, hodnoty.Length);
-            Array.Sort(serazeno);
-            Array.Reverse(serazeno);
 
-            for (int i = 0; i < hodnoty.Length; i++)
+            if (vstup == 0) Console.WriteLine("napis validni vstup prosim");
+
+
+            if (vstup == 1)
             {
-                for (int j = 0; j < serazeno.Length; j++)
+                Console.Write("napis nazev tohoto fara: ");
+                nazvy.Add(Console.ReadLine());
+                Console.Write("napis cenu tohoto fara: ");
+                ceny.Add(int.Parse(Console.ReadLine()));
+                Console.Write("a napis vykon tohoto fara: ");
+                vykony.Add(int.Parse(Console.ReadLine()));
+                pomer.Add(CenaVykon(ceny.Last(), vykony.Last()));
+            }
+
+
+            if (vstup == 2)
+            {
+                int best = 1000000000;
+                for (int i = 0; i < nazvy.Count; i++)
                 {
-                    if (serazeno[i] == hodnoty[j])
+                    if (pomer[i] < best)  best = CenaVykon(ceny[i], vykony[i]);
+
+                }
+                for (int i = 0;i < nazvy.Count; i++)
+                {
+                    if (pomer[i] == best)
                     {
-                        if (!indexy.Contains(hodnoty[i])) indexy[i] = j;
+                        Console.WriteLine("nejlepsi auto cena/vykon je: " + nazvy[i]);
+                        Console.Write("(Enter == zpatky)");
+                        Console.ReadLine();
                     }
                 }
+               
             }
-            GrafickeZnazorneni(indexy, hodnoty.Max());
+
+            if (vstup == 3)
+            {
+                foreach (string c in nazvy)
+                {
+                    Console.WriteLine(c);
+                }
+                Console.Write("(Enter == zpatky)");
+                Console.ReadLine();
+            }
+
+            if (vstup == 4) chcepokracovat = false;
         }
 
-        static void Main()
-        {
-            int[] hodnoty = { 0, 1, 2, 3, 4, 5, 6, 7 ,8 ,9, 10};
-            Vykreslit(hodnoty);
 
-        }
+    }
     
 }
