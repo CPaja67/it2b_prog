@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\",
+  "WorkspaceRootPath": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\obdelnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\obdelnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\beznyucet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\beznyucet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
               "RelativeDocumentMoniker": "program\\Program.cs",
-              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
               "RelativeToolTip": "program\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T11:59:08.248Z",
               "EditorCaption": ""
@@ -36,12 +36,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "obdelnik.cs",
-              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\obdelnik.cs",
-              "RelativeDocumentMoniker": "program\\obdelnik.cs",
-              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\obdelnik.cs",
-              "RelativeToolTip": "program\\obdelnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Title": "BeznyUcet.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\BeznyUcet.cs",
+              "RelativeDocumentMoniker": "program\\BeznyUcet.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\BeznyUcet.cs",
+              "RelativeToolTip": "program\\BeznyUcet.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T10:30:27.486Z",
               "EditorCaption": ""

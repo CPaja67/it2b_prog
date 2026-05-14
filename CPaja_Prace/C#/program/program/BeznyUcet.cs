@@ -1,35 +1,41 @@
 ﻿class BeznyUcet
 {
-    public double Zustatek { get; set; }
-    
+    private double Zustatek { get; set; }
+    public string Jmeno { get; set; }
+    private string Heslo { get; set; }
 
-    public BeznyUcet(double zustatek)
+    public BeznyUcet(string jmeno, string heslo)
     {
-        Zustatek = zustatek;
+        Jmeno = jmeno;
+        Heslo = heslo;
+        Zustatek = 0;
     }
 
-    public void VlozeniPenez(double kolko)
+    public void VlozeniPenez(double kolko, string heslo)
     {
         if (kolko <= 0) return;
+        if (heslo != Heslo){Console.WriteLine("spatne heslo!"); return;}
         Console.WriteLine("bylo vlozeno: " + kolko);
         Console.WriteLine("zustatek před: " + Zustatek);
         Zustatek += kolko;
         Console.WriteLine("zustatek po: " + Zustatek);
     }
 
-    public void Platba(double kolko)
+    public void Platba(double kolko, string heslo)
     {
         if (kolko <= 0 || kolko > Zustatek) return;
+        if (heslo != Heslo) { Console.WriteLine("spatne heslo!"); return; }
         Console.WriteLine("bylo zaplaceno: " + kolko);
         Console.WriteLine("zustatek před: " + Zustatek);
         Zustatek -= kolko;
         Console.WriteLine("zustatek po: " + Zustatek);
     }
 
-    public void ZobrazitZustatek()
+    public double ZobrazitZustatek()
     {
         if (Zustatek <= 0) Console.WriteLine("jste bankrotovali!");
-        Console.WriteLine("Zustatek je: " + Zustatek);
+        Console.WriteLine("na ucte " + Jmeno + " je: " + Zustatek);
+        return Zustatek;
     }
 
 }
