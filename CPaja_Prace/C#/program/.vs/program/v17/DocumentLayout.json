@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\",
+  "WorkspaceRootPath": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\pokoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\pokoj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\beznyucet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\beznyucet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\oddeleni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\oddeleni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\sestricka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\sestricka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|e:\\it2b_prog\\it2b_prog\\cpaja_prace\\c#\\program\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111E9B6-98B6-420B-BF74-C3AD973F16CC}|program\\program.csproj|solutionrelative:program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
-              "RelativeDocumentMoniker": "program\\Program.cs",
-              "ToolTip": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
-              "RelativeToolTip": "program\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Oddeleni.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Oddeleni.cs",
+              "RelativeDocumentMoniker": "program\\Oddeleni.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Oddeleni.cs",
+              "RelativeToolTip": "program\\Oddeleni.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:59:08.248Z",
+              "WhenOpened": "2026-09-24T08:33:50.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BeznyUcet.cs",
-              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\BeznyUcet.cs",
-              "RelativeDocumentMoniker": "program\\BeznyUcet.cs",
-              "ToolTip": "E:\\it2b_prog\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\BeznyUcet.cs",
-              "RelativeToolTip": "program\\BeznyUcet.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwB8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Pokoj.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Pokoj.cs",
+              "RelativeDocumentMoniker": "program\\Pokoj.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Pokoj.cs",
+              "RelativeToolTip": "program\\Pokoj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T10:30:27.486Z",
+              "WhenOpened": "2026-09-24T08:33:40.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sestricka.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Sestricka.cs",
+              "RelativeDocumentMoniker": "program\\Sestricka.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Sestricka.cs",
+              "RelativeToolTip": "program\\Sestricka.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:33:24.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
+              "RelativeDocumentMoniker": "program\\Program.cs",
+              "ToolTip": "E:\\it2b_prog\\it2b_prog\\CPaja_Prace\\C#\\program\\program\\Program.cs",
+              "RelativeToolTip": "program\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T11:59:08.248Z",
               "EditorCaption": ""
             }
           ]
